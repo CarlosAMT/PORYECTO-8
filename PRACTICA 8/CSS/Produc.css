@@ -1,0 +1,197 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color:rgb(231, 231, 61) ;
+}
+.encabezado{
+ 
+    
+    height: 180px;
+    text-align: center;
+    background-color: rgb(217, 250, 70);
+    background-image: url(../Imagrenes/taco.png);
+    background-repeat: no-repeat;
+    background-size: 156px;
+}
+
+.Areaprincipal{
+    background-image: url(../Imagrenes/amarillo.webp);
+    background-repeat: no-repeat ;
+    width:auto;
+    height: auto;
+    opacity: 1;
+    -webkit-background-size:  100% 100%;
+
+    -moz-background-size: 100% ;
+
+    -o-background-size: 100% ;
+
+    background-size: 100%;
+
+}
+.Piedepagina{
+    width: 100%;
+    height: 10%;
+    background: rgb(133, 143, 1);
+    color: bisque;
+    bottom: 0%;
+    position: fixed;
+    left: 0%;
+}
+
+.Nombre{
+    position: relative;
+    
+    top: -55px;
+    left: 25px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique;
+    word-spacing: 15px;
+    letter-spacing: 15px;
+    font-size: 45px;
+    text-align: center;
+    text-shadow: 2px 5px 3px #4b1139;
+    color: #f45d4c;
+}
+.Menu{
+ 
+    position: relative;
+    top: 125px;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+    background-color: black;
+}
+li{
+    float:left;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    margin-left: 8px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: rgb(110, 109, 32);
+    
+}
+
+.datos{
+    
+    width: 80%;
+    background-color: rgb(204, 192, 87);
+    height: auto;
+    margin: auto;
+    opacity: 1;
+    color: rgb(0, 0, 0);
+    padding: 35px;
+    font-size:large;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.Tabla1{
+    border: 5px solid #757449;
+    background-color:#e0c590;
+    display:inline-block;
+    padding: 20px 5px 70px 10px;
+    margin-top: 30px;
+    text-align: center;
+    margin-left: 5px;
+    overflow: hidden;
+    
+  width: 250px;
+  height: 170px;
+}
+#parra1{
+    margin-top: 4px;
+    
+    float: left;
+   word-spacing: 10px;
+   letter-spacing: 10px;
+}
+
+.tabla2{
+  
+  display:inline-block;
+  text-align: center;
+  border: 5px solid #757449;
+  background-color: #e0c590;
+  overflow: hidden;
+  
+  margin-top: 30px;
+  margin-left: 15px;
+  padding: 20px 5px 70px 10px;
+  width: 300px;
+  height: 230px;
+}
+
+.tabla3{
+  
+    display:inline-block;
+   text-align: center;
+    border: 5px solid #757449;
+    background-color:#e0c590; 
+    margin-top: 50px;
+    margin-left: 15px;
+    padding: 0px 10px 50px 7px;
+    overflow: hidden;
+    width: 300px;
+    height: 250px;
+  }
+.tabla4{
+    display:inline-block;
+   overflow: hidden;
+    border: 5px solid #757449;
+    background-color:#e0c590 ;
+    margin-top: 30px;
+    margin-left: 15px;
+    padding: 20px 5px 70px 10px;
+    width: 440px;
+    height: 350px;
+}
+#bebi1{
+    margin-top: 4px;
+    float: left;
+   word-spacing: 2px;
+   letter-spacing: 4px;
+}
+.tabla5{
+    display:inline-block;
+   overflow: hidden;
+    border: 5px solid#757449 ;
+    background-color: #e0c590;
+    margin-top: 30px;
+    margin-left: 15px;
+    padding: 20px 5px 70px 10px;
+    width: 440px;
+    height: 350px;
+}
+h1{
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+    color: aliceblue;
+    text-shadow: 1px 5px 3px #c97c7a;
+    font-size: 35px ;
+}
+h2{
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+    color: #962c4c;
+    text-shadow: 1px 5px 3px #eafde6;
+    font-size:22px ;
+}
+
+
